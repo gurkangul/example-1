@@ -38,7 +38,7 @@ export default {
   z-index: 5;
   top: 0;
   left: 0;
-  background-color: rgba(31, 31, 31, 0.2);
+  background-color: $modal-overlay;
 
   &__modal-content {
     background-color: $modal-bg;
