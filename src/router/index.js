@@ -37,7 +37,6 @@ const router = new VueRouter({
 });
 
 router.beforeEach((to, from, next) => {
-  console.log(to, store?.getters)
   if (to.matched.some(record => record.meta.requiresAuth)) {
     let user = store?.getters?.getUser
     if (user) {

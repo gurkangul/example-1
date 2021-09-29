@@ -35,7 +35,6 @@ export default {
           let el = document.getElementById(key)
           if (el) {
             if (value) {
-              console.log(document.getElementById(key), key)
               el.classList.remove('error')
               el.classList.add('success')
             }
@@ -51,7 +50,6 @@ export default {
         let el = document.getElementById(key)
         if (el) {
           if (!value) {
-            // console.log(document.getElementById(key), key)
             el.classList.add('error')
           } else {
             el.classList.remove('error')
