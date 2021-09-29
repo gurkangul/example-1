@@ -1,0 +1,15 @@
+@import '../reset.css';
+@import './_mixins.scss';
+@import './_buttons.scss';
+
+html,
+body {
+  height: 100%;
+}
+
+.error {
+  border: 1px solid red !important;
+}
+.success {
+  border: 1px solid green !important;
+}

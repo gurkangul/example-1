@@ -1,0 +1,20 @@
+.btn {
+  border: none;
+  padding: 0.3rem 0.6rem;
+  border-radius: 0.2rem;
+  &.primary {
+    background: $primary;
+    color: $text-color;
+  }
+  &.green {
+    background: $green;
+    color: $text-color;
+  }
+  &:hover {
+    cursor: pointer;
+  }
+
+  &.w-30 {
+    width: 30%;
+  }
+}
